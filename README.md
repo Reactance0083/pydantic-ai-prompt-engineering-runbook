@@ -128,19 +128,6 @@ The code reviewer uses `claude-sonnet-4-5` because haiku misses subtle security 
 
 These agents are designed to chain. Example: run SWOT → pipe `top_recommendation` into Decision Framework → pipe winning option into Social Post Generator to announce it.
 
-## Health Check
-
-```bash
-curl http://localhost:8004/health
-```
-
-Expected response:
-```json
-{"status": "ok"}
-```
-
-FastAPI also ships interactive docs automatically — open [http://localhost:8004/docs](http://localhost:8004/docs) in your browser to explore all 5 endpoints, see the full request/response schemas, and run test calls without writing any curl.
-
 ## Requirements
 
 - Python 3.11+
