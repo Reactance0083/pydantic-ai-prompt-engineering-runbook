@@ -108,7 +108,7 @@ class CodeReview(BaseModel):
 
 
 code_review_agent = Agent(
-    "anthropic:claude-sonnet-4-5",   # use sonnet for code — haiku misses subtle bugs
+    "anthropic:claude-sonnet-4-6",   # use sonnet for code — haiku misses subtle bugs
     result_type=CodeReview,
     system_prompt=(
         "You are a senior software engineer doing a thorough code review. "
