@@ -1,3 +1,5 @@
+> **Commercial status:** Deferred commercial product. This repository may be useful as a code reference, but the product is not the active flagship and should not be promoted until its package, README, and listing are re-verified.
+
 # Prompt Engineering Runbook — 5 Production Agents (pydantic-ai + FastAPI)
 
 A toolkit of 5 battle-tested pydantic-ai agents for common engineering and business tasks. Every response is structured (typed Pydantic models) so outputs are always machine-readable and composable.
