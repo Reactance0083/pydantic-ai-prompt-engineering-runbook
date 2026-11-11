@@ -1,15 +1,8 @@
 """
-Prompt Engineering Runbook — 5 Production Agents
-A toolkit of battle-tested pydantic-ai agents for common engineering tasks.
-Each agent uses structured outputs so results are always machine-readable.
-
-Endpoints:
-  POST /analyze/swot       — SWOT analysis of any idea or situation
-  POST /generate/post      — LinkedIn/Twitter post from rough notes
-  POST /review/code        — Code review with actionable feedback
-  POST /summarize          — Multi-format document summarizer
-  POST /decide             — Decision framework (pros/cons + recommendation)
-  GET  /health
+Structured AI Workflow Runbook.
+Five experimental PydanticAI workflows with typed outputs.
+Independent accuracy and production reliability have not been established.
+See README for routes, setup, and current verification limits.
 """
 import os
 from typing import Literal
